@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.children {
+    height: 100px;
+    width: 100px;
+}
+
+/* main */
+
+.parent{
+    margin-bottom: 10px;
+    background-color: yellow;
+    width: 500px;
+    height: 500px;
+}
+
+.children1 {
+    background-color: red;
+}
+.children2 {
+    background-color: green;
+}
+.children3 {
+    background-color: blue;
+}
+
+/* section2 */
+#section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: start;
+
+}
