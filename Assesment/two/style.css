@@ -1,0 +1,76 @@
+@import url("https://fonts.cdnfonts.com/css/caros");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Caros;
+}
+
+#home {
+  background-color: #f8f7f1;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* nav-bar */
+.nav-bar {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.menu-container {
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: start;
+  list-style-type: none;
+}
+
+.phone {
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+
+.phone h3 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* biodata */
+.biodata {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+#watercolor {
+  position: absolute;
+
+  z-index: 1;
+}
+
+#nahn {
+  position: absolute;
+
+  z-index: 3;
+}
